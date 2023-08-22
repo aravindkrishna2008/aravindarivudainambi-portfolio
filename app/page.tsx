@@ -14,12 +14,12 @@ const Home = () => {
             Innovator
           </h1>
           <p className="text-white text-[1.25vw] font-mono w-[80%]">
-            Hi, I'm <span className="font-bold">Aravind</span>, a Lynbrook High
-            School student passionate about web development.
+            Hi, I&apos;m <span className="font-bold">Aravind</span>, a Lynbrook
+            High School student passionate about web development.
           </p>
         </div>
         <div className="flex flex-col justify-center items-end w-[40%] h-[100vh] gap-[1.25vw] ">
-          <img src="/Group 14.svg" className="w-[18vw] h-[18vw]" />
+          <img src="/Group 69.svg" className="w-[18vw] h-[18vw]" />
           <img src="/Group 26.svg" className="w-[18vw] h-[18vw]" />
         </div>
       </div>
@@ -30,6 +30,10 @@ const Home = () => {
         <ProjectsDisplay reverse={true} top={true} />
         {/* @ts-ignore */}
         <ProjectsDisplay top={true} />
+      </div>
+      <div className="flex flex-col gap-3 mt-10">
+        <h1 className="font-bold text-[3vw] text-white mb-5">Achievements</h1>
+        <img src="/Group 15.svg" className="w-[100%] h-[100%]" />
       </div>
     </div>
   );

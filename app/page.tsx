@@ -31,10 +31,6 @@ const Home = () => {
         {/* @ts-ignore */}
         <ProjectsDisplay top={true} />
       </div>
-      <div className="flex flex-col gap-3 mt-10">
-        <h1 className="font-bold text-[3vw] text-white mb-5">Achievements</h1>
-        <img src="/Group 15.svg" className="w-[100%] h-[100%]" />
-      </div>
     </div>
   );
 };
